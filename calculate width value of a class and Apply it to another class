@@ -1,0 +1,29 @@
+
+
+var sidebarElement = document.querySelector('.v-navigation-drawer')
+var cssStyles = getComputedStyle(sidebarElement);
+var style = getComputedStyle('.v-navigation-drawer')
+var left = v-navigation-drawer.left
+console.log(left)
+--
+var drawer = document.querySelector('.v-navigation-drawer')
+const style3 =  getComputedStyle(drawer);
+var dtActions = document.querySelector('.v-datatable__actions')
+const style2 =  getComputedStyle(dtActions);
+var leftValue = style2.left
+--
+var dtoverflow = document.querySelector('.v-table__overflow')
+const style4 =  getComputedStyle(dtoverflow);
+var dtoverflowWidth = style4.width  --  1367.25
+
+
+var dtActions = document.querySelector('.v-datatable__actions')
+const style5 =  getComputedStyle(dtActions);
+var dtActionsWidth = style5.width
+dtActionsWidth.style.setProperty('width', 'dtoverflowWidth');
+
+
+
+------------------
+------------------
+
